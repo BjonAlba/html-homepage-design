@@ -1,0 +1,49 @@
+<!--BOOTSTRAP CAROUSEL-->
+      <div id="propertiesCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#propertiesCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#propertiesCarousel" data-slide-to="1"></li>
+          <li data-target="#propertiesCarousel" data-slide-to="2"></li>
+        </ol>
+      
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="carousel-caption">
+              <h3 class="property-name">Mauris</h3>
+              <p class="property-description">Mauris eget nunc sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere.</p>
+              <img src="Assets/Properties/arrow-r.svg" alt="">
+            </div>
+            <img class="property-image d-block" src="Assets/Properties/jesse-roberts-146556-unsplash.png" alt="Mauris">
+          </div>
+      
+          <div class="item">
+            <div class="carousel-caption">
+              <h3 class="property-name">Nulla</h3>
+              <p class="property-description">Nulla quis semper lectus. Mauris tempus feugiat urna, ut convallis dui vehicula nec.</p>
+              <img src="Assets/Properties/arrow-r.svg" alt="">
+            </div>
+            <img class="property-image d-block" src="Assets/Properties/architecture-beautiful-exterior-106399.png" alt="Nulla" >
+          </div>
+      
+          <div class="item">
+            <div class="carousel-caption">
+              <h3 class="property-name">Maecenas</h3>
+              <p class="property-description">Maecenas varius dolor quis est sodales cursus. Donec pulvinar sodales nunc, in eleifend .</p>
+              <img src="Assets/Properties/arrow-r.svg" alt="">
+            </div>
+            <img class="property-image d-block" src="Assets/Properties/evelyn-paris-95853-unsplash.png" alt="Maecenas">
+          </div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#propertiesCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#propertiesCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
